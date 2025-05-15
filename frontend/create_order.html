@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tạo đơn hàng</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🛒 Tạo đơn hàng</h2>
+
+    <form id="orderForm">
+      <table id="productTable" border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <br />
+      <button type="submit">✅ Gửi đơn hàng</button>
+    </form>
+
+    <br />
+    <button onclick="location.href='products.html'">⬅ Quay lại sản phẩm</button>
+    <button onclick="location.href='orders.html'">📦 Xem đơn đã đặt</button>
+  </div>
+
+  <script src="scripts/create_order.js"></script>
+</body>
+</html>

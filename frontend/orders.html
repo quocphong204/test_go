@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Đơn hàng của tôi</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>📦 Danh sách đơn hàng</h2>
+
+    <table id="ordersTable" border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Tổng tiền</th>
+          <th>Trạng thái</th>
+          <th>Thanh toán</th>
+          <th>Hành động</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <br />
+    <button onclick="location.href='products.html'">⬅ Quay lại sản phẩm</button>
+    <button onclick="logout()">🚪 Đăng xuất</button>
+  </div>
+
+  <script src="scripts/orders.js"></script>
+</body>
+</html>
